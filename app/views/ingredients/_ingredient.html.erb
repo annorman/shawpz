@@ -1,0 +1,6 @@
+<li>
+  <%= ingredient.content %> |
+  <%= link_to 'X', [ingredient.recipe, ingredient],
+                    method: :delete,
+                    data: { confirm: 'Are you sure?' } %>
+</li>
